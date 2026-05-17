@@ -1,13 +1,15 @@
-import { Outlet } from "react-router"
-import NavBar from "./NavBar"
+
+import Cards from "./Cards"
 import Footer from "./Footer"
+import Hero from "./Hero"
 
 
 const Body = () => {
   return (
     <>
-        <NavBar />
-        <Outlet/>
+        {/* <NavBar /> */}
+        <Hero/>
+        <Cards/>
         <Footer />
     </>
   )

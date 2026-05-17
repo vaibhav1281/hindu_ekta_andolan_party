@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 absolute bottom-0 w-full">
+      <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 font-mono">
         <aside>
           <img 
           src="faviCon.jpeg" 
@@ -9,14 +9,14 @@ const Footer = () => {
           className="w-16 h-16 rounded-full"
           loading="lazy"
           />
-          <p>
+          <p className="text-amber-600 text-[20px]">
             Hindu Ekta Andolan Party
             <br />
             Lucknow, Uttar Pradesh
           </p>
         </aside>
         <nav>
-          <h6 className="footer-title text-amber-600">Social</h6>
+          <h6 className="text-amber-600 text-[20px]">Social</h6>
           <div className="grid grid-flow-col gap-4">
             <a>
               <svg
